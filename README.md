@@ -9,7 +9,7 @@ plt.rcParams["font.sans-serif"]=["SimHei"]
 plt.rcParams["axes.unicode_minus"]=False
 
 #读取房价数据集
-points=np.genfromtxt('C:\\Users\\Willie\\Desktop\\Learn\\机器学习MachineLearning\\boston.csv',delimiter=',')
+points=np.genfromtxt('boston.csv',delimiter=',')
 X1 = points[1:,0]
 X2 = points[1:,1]
 Y  = points[1:,2]
@@ -82,3 +82,32 @@ print("theta2 is : ",theta2)
 ```
 
 <img src="https://github.com/ShyanL/ShyanL/blob/main/%E6%B1%82%E5%8F%82%E7%BB%93%E6%9E%9C.jpg" width="400" height="200" alt="微信小程式"/><br/>
+
+```
+#代价变化曲线图
+plt.xlabel('迭代次数')
+plt.ylabel('loss')
+plt.plot(cost_list)
+```
+
+<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%8F%98%E5%8C%96%E8%BF%87%E7%A8%8B.jpg" width="400" height="300" alt="微信小程式"/><br/>
+
+```
+#建立三维视图
+fig = plt.figure()
+ax = Axes3D(fig,auto_add_to_figure=False)
+fig.add_axes(ax)
+
+#散点图
+ax.scatter(X1, X2, Y, c='r', marker='o', s=50)
+
+#拟合函数
+X1, X2 = np.meshgrid(X1, X2)
+func = theta0 + theta1*X1 + theta2*X2
+
+ax.plot_surface(X1, X2, func, cmap='rainbow')
+ax.set_xlabel('房子面积')
+ax.set_ylabel('房间数量')
+ax.set_zlabel('房子售价')
+plt.show()   
+```
