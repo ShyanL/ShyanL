@@ -56,7 +56,7 @@ def grad_desc(X1, X2, Y, init_theta0, init_theta1, init_theta2, alpha, grad_num)
         sum_grad_theta0 = 0
         sum_grad_theta1 = 0
         sum_grad_theta2 = 0
-        #开始迭代
+        #开始求和
         for j in range(m):
             x1 = X1[j]
             x2 = X2[j]
