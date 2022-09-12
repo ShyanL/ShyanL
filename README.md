@@ -75,4 +75,4 @@ print("theta0 is : ",theta0)
 print("theta1 is : ",theta1)  
 print("theta2 is : ",theta2)
 
-<img src="https://github.com/ShyanL/ShyanL/blob/main/%E6%B1%82%E5%8F%82%E7%BB%93%E6%9E%9C.jpg" width="200" height="200" alt="微信小程式"/><br/>
+<img src="https://github.com/ShyanL/ShyanL/blob/main/%E6%B1%82%E5%8F%82%E7%BB%93%E6%9E%9C.jpg" width="400" height="200" alt="微信小程式"/><br/>
