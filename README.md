@@ -1,6 +1,6 @@
 智能201 2006500004 李叙言
 
-'''
+```
 #导入所需的库
 import numpy as np
 import matplotlib.pyplot as plt
@@ -37,11 +37,11 @@ def cost_func(X1, X2, Y, now_theta0, now_theta1, now_theta2):
         y  =  Y[i]
         total_cost += (now_theta0 + now_theta1*x1 + now_theta2*x2 - y) ** 2
     return total_cost/2
-'''
+```
 
 <img src="https://github.com/ShyanL/ShyanL/blob/main/%E6%A2%AF%E5%BA%A6%E5%81%8F%E5%AF%BC%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC.jpg" width="450" height="450" alt="微信小程式"/><br/>
 
-'''
+```
 #梯度下降
 def grad_desc(X1, X2, Y, init_theta0, init_theta1, init_theta2, alpha, grad_num):
     #定义当前参数取值
@@ -79,6 +79,6 @@ theta0, theta1, theta2, cost_list = grad_desc(X1, X2, Y, init_theta0, init_theta
 print("theta0 is : ",theta0)
 print("theta1 is : ",theta1)  
 print("theta2 is : ",theta2)
+```
 
-'''
 <img src="https://github.com/ShyanL/ShyanL/blob/main/%E6%B1%82%E5%8F%82%E7%BB%93%E6%9E%9C.jpg" width="400" height="200" alt="微信小程式"/><br/>
