@@ -25,7 +25,7 @@ alpha = 0.01       #学习率
 init_theta0 = 0    #初始参数
 init_theta1 = 0
 init_theta2 = 0
-grad_num = 1000   #迭代次数
+grad_num = 1000    #迭代次数
 
 #代价函数
 def cost_func(X1, X2, Y, now_theta0, now_theta1, now_theta2):
