@@ -90,7 +90,8 @@ plt.xlabel('迭代次数')
 plt.ylabel('loss')
 plt.plot(cost_list)
 ```
-<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%8F%98%E5%8C%96%E8%BF%87%E7%A8%8B.jpg" width="400" height="300" alt="微信小程式"/><br/>
+<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%8F%98%E5%8C%96%E8%BF%87%E7%A8%8B.jpg" width="500" height="400" alt="微信小程式"/><br/>
+
 
 ```
 #建立三维视图
