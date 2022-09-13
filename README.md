@@ -112,7 +112,8 @@ ax.set_ylabel('房间数量')
 ax.set_zlabel('房子售价')
 plt.show()   
 ```
-<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%B8%89%E7%BB%B4%E8%A7%86%E5%9B%BE.gif" width="750" height="650" alt="微信小程式"/><br/>
+<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%B8%89%E7%BB%B4%E8%A7%86%E5%9B%BE.jpg" width="550" height="550" alt="微信小程式"/><br/>
+<img src="https://github.com/ShyanL/ShyanL/blob/main/%E4%B8%89%E7%BB%B4%E8%A7%86%E5%9B%BE.gif" width="700" height="600" alt="微信小程式"/><br/>
 
 谢谢观看！
 Thanks for your reading！
